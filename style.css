@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    background-color: rgb(27, 27, 27);
+    font-family: 'Oswald', sans-serif;
+}
+.employees {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.container{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    /* flex-direction: column;
+    row-gap: 7px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.emp1,
+.emp2,
+.emp3,
+.emp4,
+.emp5,
+.emp6,
+.emp7,
+.emp8,
+.emp9,
+.emp10 {
+    height: 45px;
+    width: 99vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFFFF;
+    margin-left: 7px;
+    margin-top: 18px;
+    border-radius: 10px;
+}
+
+.emp1-main-data,
+.emp2-main-data,
+.emp3-main-data,
+.emp4-main-data,
+.emp5-main-data,
+.emp6-main-data,
+.emp7-main-data,
+.emp8-main-data,
+.emp9-main-data,
+.emp10-main-data {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    margin-left: 10px;
+}
+
+.emp1 button,
+.emp2 button,
+.emp3 button,
+.emp4 button,
+.emp5 button,
+.emp6 button,
+.emp7 button,
+.emp8 button,
+.emp9 button,
+.emp10 button {
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.data{
+    height: 550px;
+    width: 600px;
+    background-color: #FFFFFFFF;
+    border-radius: 5px;
+    color: black;
+}

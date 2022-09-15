@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="employees">
+            <div class="emp1">
+                <div class="emp1-main-data">
+                    <h2 id="emp1ID"></h2>
+                    <h2 id="emp1-name"></h2>
+                </div>
+                <button onClick="showData('1')">View Details</button>
+            </div>
+            <div class="emp2">
+                <div class="emp2-main-data">
+                    <h2 id="emp2ID"></h2>
+                    <h2 id="emp2-name"></h2>
+                </div>
+                <button onClick="showData('2')">View Details</button>
+            </div>
+            <div class="emp3">
+                <div class="emp3-main-data">
+                    <h2 id="emp3ID"></h2>
+                    <h2 id="emp3-name"></h2>
+                </div>
+                <button onClick="showData('3')">View Details</button>
+            </div>
+            <div class="emp4">
+                <div class="emp4-main-data">
+                    <h2 id="emp4ID"></h2>
+                    <h2 id="emp4-name"></h2>
+                </div>
+                <button onClick="showData('4')">View Details</button>
+            </div>
+            <div class="emp5">
+                <div class="emp5-main-data">
+                    <h2 id="emp5ID"></h2>
+                    <h2 id="emp5-name"></h2>
+                </div>
+                <button onClick="showData('5')">View Details</button>
+            </div>
+            <div class="emp6">
+                <div class="emp6-main-data">
+                    <h2 id="emp6ID"></h2>
+                    <h2 id="emp6-name"></h2>
+                </div>
+                <button onClick="showData('6')">View Details</button>
+            </div>
+            <div class="emp7">
+                <div class="emp7-main-data">
+                    <h2 id="emp7ID"></h2>
+                    <h2 id="emp7-name"></h2>
+                </div>
+                <button onClick="showData('7')">View Details</button>
+            </div>
+            <div class="emp8">
+                <div class="emp8-main-data">
+                    <h2 id="emp8ID"></h2>
+                    <h2 id="emp8-name"></h2>
+                </div>
+                <button onClick="showData('8')">View Details</button>
+            </div>
+            <div class="emp9">
+                <div class="emp9-main-data">
+                    <h2 id="emp9ID"></h2>
+                    <h2 id="emp9-name"></h2>
+                </div>
+                <button onClick="showData('9')">View Details</button>
+            </div>
+            <div class="emp10">
+                <div class="emp10-main-data">
+                    <h2 id="emp10ID"></h2>
+                    <h2 id="emp10-name"></h2>
+                </div>
+                <button onClick="showData('10')">View Details</button>
+            </div>
+        </div>
+        <div class="data">
+            <div class="data-closing" style="display: flex; justify-content: flex-end;">
+                <button style="background: transparent; border: none;" onClick="hideData()"><img src="./icons/close.png" style="height: 30px; width: 30px; cursor: pointer; margin: 3px 5px 0px 0px;"></button>
+            </div>
+            <br>
+            <br>
+            <div class="data-head">
+                <h2 style="text-align: center;">Employee Information</h2>
+            </div>
+            <br>
+            <div class="emp-details" style="display: flex; flex-direction: column; row-gap: 10px;">
+                <div class="name" style="display: flex; justify-content: space-between;">
+                    <h2 style="margin-left: 10px;">Name: </h2>
+                    <h2 id="emp-name" style="margin-right: 8px;"></h2>
+                </div>
+                <div class="username" style="display: flex; justify-content: space-between;">
+                    <h2 style="margin-left: 10px;">Username: </h2>
+                    <h2 id="emp-username" style="margin-right: 8px;"></h2>
+                </div>
+                <div class="email" style="display: flex; justify-content: space-between;">
+                    <h2 style="margin-left: 10px;">Email: </h2>
+                    <h2 id="emp-email" style="margin-right: 8px;"></h2>
+                </div>
+                <div class="address" style="display: flex; justify-content: space-between;">
+                    <h2 style="margin-left: 10px;">Address: </h2>
+                    <h2 id="emp-address" style="margin-right: 8px;"></h2>
+                </div>
+                <div class="zip" style="display: flex; justify-content: space-between;">
+                    <h2 style="margin-left: 10px;">Zip Code: </h2>
+                    <h2 id="emp-zip" style="margin-right: 8px;"></h2>
+                </div>
+                <div class="number" style="display: flex; justify-content: space-between;">
+                    <h2 style="margin-left: 10px;">Ph. Number: </h2>
+                    <h2 id="emp-number" style="margin-right: 8px;"></h2>
+                </div>
+                <div class="web" style="display: flex; justify-content: space-between;">
+                    <h2 style="margin-left: 10px;">Website: </h2>
+                    <h2 id="emp-web" style="margin-right: 8px;"></h2>
+                </div>
+                <div class="company" style="display: flex; justify-content: space-between;">
+                    <h2 style="margin-left: 10px;">Company: </h2>
+                    <h2 id="emp-company" style="margin-right: 8px;"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
